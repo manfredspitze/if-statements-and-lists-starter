@@ -1,19 +1,21 @@
 ## PRIMM Activity
-### Topic
+### If Statements & Lists
 
 Take a minute or two to examine the Python code below.
 
 ```python
-greeting = 'Hello, world!'
-print(greeting)
+current_users = ['eric', 'willie', 'admin', 'erin', 'Garrett']
+new_users = ['sarah', 'Willie', 'PHIL', 'garrett', 'Alyssa']
+
+# Generate a new list of usernames in lowercase
+current_users_lower = []
+for user in current_users:
+    current_users_lower.append(user.lower())
+
+for new_user in new_users:
+    if new_user.lower() in current_users_lower:
+        print(f"Sorry {new_user}, that name is taken.")
+    else:
+        print(f"Great, {new_user} is still available.")
 ```
 
-### Questions
-Answer these questions about the code.  Be specific in your answers!
-
-1. Question 1
-> Answer 1
-
-
-2. Question 2
-> Answer 2
