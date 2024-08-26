@@ -19,3 +19,12 @@ for new_user in new_users:
         print(f"Great, {new_user} is still available.")
 ```
 
+### Code Analysis
+
+1. How many lists will you have after you run this script?
+
+2. How will the items in `current_users` be different from the items in `current_users_lower`?
+
+3. In simple terms, explain what the first `for` loop is doing or is used for.
+
+4. What is the purpose of the `if-else` statement in the second `for` loop?
