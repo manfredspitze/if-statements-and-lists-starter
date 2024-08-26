@@ -28,3 +28,5 @@ for new_user in new_users:
 3. In simple terms, explain what the first `for` loop is doing or is used for.
 
 4. What is the purpose of the `if-else` statement in the second `for` loop?
+
+5. What is the `append ( )` method used for in the first `for` loop?
